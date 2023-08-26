@@ -20,7 +20,7 @@ place_amenity = Table("place_amenity", Base.metadata,
 
 
 class Place(BaseModel, Base):
-    """ A place to stay
+    """This is the class for Place
     Attributes:
         city_id: city id
         user_id: user id
